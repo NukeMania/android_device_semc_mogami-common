@@ -21,6 +21,8 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/mogami-common/overlay
 # Init files  and configs
 
 PRODUCT_COPY_FILES += \
+    device/semc/mogami-common/prebuilt/recovery.rc:root/recovery.rc \
+    device/semc/mogami-common/prebuilt/init.rc:root/init.rc \
     device/semc/mogami-common/prebuilt/init.semc.rc:root/init.semc.rc
 
 #WIFI modules and configs
